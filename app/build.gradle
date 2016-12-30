@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+    flatDir {
+        dirs 'prebuilt-libs'
+    }
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.example.chuta.glassfingerdetection"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        pickFirst 'org/bytedeco/javacpp/macosx-x86_64/libusb-1.0.dylib'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':openCVLibrary310')
+    compile files('libs/armeabi-v7a.jar')
+    //compile group: 'org.bytedeco', name: 'javacv-platform', version: '1.3'
+    //compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '3.0.0-1.0', classifier: 'android-arm'
+    //compile group: 'org.bytedeco', name: 'javacv', version: '0.11'
+    //compile files('libs/javacpp.jar')
+    //compile files('libs/javacv.jar')
+    //compile files('libs/opencv-android-arm.jar')
+    //compile files('libs/opencv.jar')
+    compile group: 'org.bytedeco', name: 'javacv-platform', version: '1.3'
+    compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '3.0.0-1.0', classifier: 'android-arm'
+}

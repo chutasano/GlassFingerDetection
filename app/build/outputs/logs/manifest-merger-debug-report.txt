@@ -1,0 +1,64 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:2:5-53
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:3:5-19:19
+	android:label
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:6:9-41
+	android:supportsRtl
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:7:9-35
+	android:allowBackup
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:4:9-35
+	android:icon
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:5:9-43
+	android:theme
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:8:9-40
+activity#com.example.chuta.glassfingerdetection.MainActivity
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:11:13-79
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:16:27-74
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:20:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:21:5-60
+	android:name
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:21:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:22:5-70
+	android:name
+		ADDED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml:22:19-67
+uses-sdk
+INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [GlassFingerDetection:openCVLibrary310:unspecified] C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\build\intermediates\exploded-aar\GlassFingerDetection\openCVLibrary310\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chuta\Desktop\GoogleGlass\GlassFingerDetection\app\src\main\AndroidManifest.xml

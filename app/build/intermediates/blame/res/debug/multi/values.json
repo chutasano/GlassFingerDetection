@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\chuta\\Desktop\\GoogleGlass\\GlassFingerDetection\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 345,
+                    "endColumn": 57,
+                    "endOffset": 398
+                },
+                "from": {
+                    "file": "C:\\Users\\chuta\\Desktop\\GoogleGlass\\GlassFingerDetection\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 57,
+                        "endOffset": 70
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 403,
+                    "endColumn": 68,
+                    "endOffset": 467
+                },
+                "from": {
+                    "file": "C:\\Users\\chuta\\Desktop\\GoogleGlass\\GlassFingerDetection\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 75,
+                        "endOffset": 130
+                    }
+                }
+            }
+        ]
+    }
+]
